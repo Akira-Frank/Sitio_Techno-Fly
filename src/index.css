@@ -6,7 +6,7 @@
 @layer base {
   html {
     font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
-      "Apple Color Emoji", "Segoe UI Emoji";
+    "Apple Color Emoji", "Segoe UI Emoji";
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -18,6 +18,11 @@
     min-height: 100vh;
     background: theme(colors.slate.50);
     color: theme(colors.slate.900);
+  }
+
+  /* smoother anchor jumps under the fixed navbar */
+  html:focus-within {
+    scroll-behavior: smooth;
   }
 
   a {

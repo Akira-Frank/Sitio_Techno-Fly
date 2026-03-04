@@ -10,16 +10,21 @@ import CTA from "../components/sections/CTA";
 
 export default function Landing() {
     return (
-        <>
+        <div className="min-h-screen bg-slate-50 text-slate-900">
             <Navbar />
-            <Hero />
-            <Context />
-            <Problems />
-            <Approach />
-            <Model />
-            <Principles />
-            <CTA />
+
+            {/* Navbar is fixed (h-16), so we offset the page content */}
+            <main className="pt-16">
+                <Hero />
+                <Context />
+                <Problems />
+                <Approach />
+                <Model />
+                <Principles />
+                <CTA />
+            </main>
+
             <Footer />
-        </>
+        </div>
     );
 }
