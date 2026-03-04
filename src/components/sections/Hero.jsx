@@ -32,7 +32,10 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-10 flex flex-col sm:flex-row gap-3">
-                        <a href="#contacto" className="btn btn-primary">
+                        <a
+                            href="#contacto"
+                            className="btn btn-primary border border-white/10"
+                        >
                             {t.hero_cta_primary}
                         </a>
 

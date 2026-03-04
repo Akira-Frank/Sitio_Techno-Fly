@@ -207,6 +207,39 @@ export default {
     model_note:
         "We work with a limited number of organizations per year to ensure technical depth.",
 
+    // DOMAIN INTELLIGENCE
+    domain_intelligence_kicker: "APPLIED INTELLIGENCE",
+    domain_intelligence_title: "Applied intelligence by domain (without forcing operations)",
+    domain_intelligence_text:
+        "A solid architecture makes predictive analytics and applied intelligence a natural outcome: reliable events, consistent data, and an analytics layer separated from day-to-day operations.",
+    domain_intelligence_note:
+        "It’s not about “doing AI”. It’s about designing the structure so intelligence becomes a consequence.",
+    domain_intelligence_item_kicker: "EXAMPLE",
+    domain_intelligence_examples: [
+        {
+            title: "Logistics: variation prediction",
+            text:
+                "Identify delay, returns and exception patterns by route/customer with event-level traceability."
+        },
+        {
+            title: "Inventory: reconciliation & quality",
+            text:
+                "Monitor misalignment between system and reality, and prioritize fixes with consistent metrics."
+        },
+        {
+            title: "Retail: replenishment & stockouts",
+            text:
+                "Model demand and replenishment by store with master data and reliable operational signals."
+        },
+        {
+            title: "Manufacturing: scrap & productivity",
+            text:
+                "Analyze scrap/shrink by lot and process with shop-floor data integrated into quality and planning."
+        }
+    ],
+    domain_intelligence_quote:
+        "Development is a consequence. Architecture is the strategic decision.",
+
     // PRINCIPLES
     principles_kicker: "PRINCIPLES",
     principles_title: "Architecture Principles",

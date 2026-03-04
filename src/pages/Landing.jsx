@@ -8,6 +8,7 @@ import Approach from "../components/sections/Approach";
 import Industries from "../components/sections/Industries";
 import CaseStudy from "../components/sections/CaseStudy";
 import Model from "../components/sections/Model";
+import DomainIntelligence from "../components/sections/DomainIntelligence";
 import Principles from "../components/sections/Principles";
 import CTA from "../components/sections/CTA";
 
@@ -26,6 +27,7 @@ export default function Landing() {
                 <Industries />
                 <CaseStudy />
                 <Model />
+                <DomainIntelligence />
                 <Principles />
                 <CTA />
             </main>

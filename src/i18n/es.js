@@ -207,6 +207,39 @@ export default {
     model_note:
         "Trabajamos con un número limitado de organizaciones por año para garantizar profundidad técnica.",
 
+    // INTELIGENCIA POR DOMINIO
+    domain_intelligence_kicker: "INTELIGENCIA APLICADA",
+    domain_intelligence_title: "Inteligencia aplicada por dominio (sin forzar la operación)",
+    domain_intelligence_text:
+        "Una arquitectura sólida permite incorporar analítica predictiva e inteligencia aplicada de forma natural: eventos confiables, datos consistentes y una capa analítica separada de la operación.",
+    domain_intelligence_note:
+        "No se trata de “hacer IA”. Se trata de diseñar la estructura para que la inteligencia sea una consecuencia.",
+    domain_intelligence_item_kicker: "EJEMPLO",
+    domain_intelligence_examples: [
+        {
+            title: "Logística: predicción de variación",
+            text:
+                "Detecta patrones de retraso, devoluciones y excepciones por ruta/cliente con trazabilidad por evento."
+        },
+        {
+            title: "Inventario: reconciliación y calidad",
+            text:
+                "Monitorea desalineaciones entre sistema–operación y prioriza correcciones con métricas consistentes."
+        },
+        {
+            title: "Retail: reposición y quiebres",
+            text:
+                "Modela demanda y reposición por tienda con catálogos maestros y señales operativas confiables."
+        },
+        {
+            title: "Manufactura: merma y productividad",
+            text:
+                "Analiza scrap/merma por lote y proceso con datos de piso integrados a calidad y planeación."
+        }
+    ],
+    domain_intelligence_quote:
+        "El desarrollo es una consecuencia. La arquitectura es la decisión estratégica.",
+
     // PRINCIPLES
     principles_kicker: "PRINCIPIOS",
     principles_title: "Principios de Arquitectura",
