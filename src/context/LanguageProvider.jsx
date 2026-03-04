@@ -28,6 +28,10 @@ export default function LanguageProvider({ children }) {
         }
     }, [language]);
 
+    useEffect(() => {
+        document.documentElement.lang = language === "en" ? "en" : "es-MX";
+    }, [language]);
+
     const t = useMemo(() => (language === "es" ? es : en), [language]);
 
     const value = useMemo(

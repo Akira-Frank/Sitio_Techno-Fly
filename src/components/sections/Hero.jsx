@@ -19,7 +19,7 @@ export default function Hero() {
                         {t.hero_kicker}
                     </p>
 
-                    <h1 className="mt-5 text-5xl md:text-6xl font-light leading-[1.05] tracking-tight">
+                    <h1 className="mt-5 text-5xl md:text-6xl font-semibold leading-[1.05] tracking-tight">
                         {t.hero_title}
                         <br />
                         <span className="text-blue-300 font-medium">
@@ -36,7 +36,7 @@ export default function Hero() {
                             {t.hero_cta_primary}
                         </a>
 
-                        <a href="#enfoque" className="btn btn-ghost">
+                        <a href="#industrias" className="btn btn-ghost">
                             {t.hero_cta_secondary}
                         </a>
                     </div>
