@@ -260,5 +260,32 @@ export default {
     cta_text:
         "If you rely on spreadsheets, rework, or manual reconciliations, the assessment will tell you what to stabilize first and how to scale without losing control.",
     cta_final_button: "Request Assessment (45 min)",
-    cta_note: "Initial assessment subject to prior review."
+    // CTA Form
+    cta_form_name: "Full Name",
+    cta_form_email: "Corporate Email",
+    cta_form_company: "Company",
+    cta_form_role: "Role / Position",
+    cta_form_industry: "Industry",
+    cta_form_industry_placeholder: "Select your industry...",
+    cta_form_challenge: "Main operational challenge",
+    cta_form_challenge_placeholder: "Select the main challenge...",
+    cta_form_submit: "Schedule Assessment Session",
+    cta_form_success: "Request sent. We will contact you soon.",
+    cta_form_industries: [
+        "Logistics & Distribution",
+        "Industrial Manufacturing",
+        "Multi-Branch Retail",
+        "Healthcare / Clinics",
+        "Agroindustrial",
+        "Banking / Fintech",
+        "Other"
+    ],
+    cta_form_challenges: [
+        "Isolated or non-integrated systems",
+        "Inconsistent inventories",
+        "Lack of visibility & late reporting",
+        "Manual processes (Excel dependency)",
+        "Disorganized growth",
+        "Other"
+    ]
 };

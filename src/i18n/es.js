@@ -260,5 +260,32 @@ export default {
     cta_text:
         "Si hoy dependes de Excel, retrabajo o conciliaciones manuales, el diagnóstico te dirá qué estabilizar primero y cómo escalar sin perder control.",
     cta_final_button: "Solicitar Diagnóstico (45 min)",
-    cta_note: "Evaluación inicial sujeta a análisis previo."
+    // CTA Form
+    cta_form_name: "Nombre completo",
+    cta_form_email: "Correo corporativo",
+    cta_form_company: "Empresa",
+    cta_form_role: "Cargo / Puesto",
+    cta_form_industry: "Industria",
+    cta_form_industry_placeholder: "Selecciona tu industria...",
+    cta_form_challenge: "Principal desafío operativo",
+    cta_form_challenge_placeholder: "Selecciona el desafío principal...",
+    cta_form_submit: "Agendar Sesión de Diagnóstico",
+    cta_form_success: "Solicitud enviada. Nos pondremos en contacto pronto.",
+    cta_form_industries: [
+        "Logística y Distribución",
+        "Manufactura Industrial",
+        "Retail Multi-Sucursal",
+        "Salud / Clínicas",
+        "Agroindustrial",
+        "Banca / Fintech",
+        "Otro"
+    ],
+    cta_form_challenges: [
+        "Sistemas aislados o sin integración",
+        "Inventarios inconsistentes",
+        "Falta de visibilidad y reportes tardíos",
+        "Procesos manuales (dependencia de Excel)",
+        "Crecimiento desordenado",
+        "Otro"
+    ]
 };
