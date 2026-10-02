@@ -16,11 +16,9 @@ export default function Navbar() {
                     className="flex items-center transition hover:opacity-80"
                     aria-label="Techno-Fly (Home)"
                 >
-                    {/* 2. USA LA VARIABLE 'logoTechnoFly' SIN COMILLAS */}
                     <img
                         src={logoTechnoFly}
                         alt="Techno-Fly Ingenio Mexicano"
-                        // Cambiamos h-10 por h-[70px] o h-14 para hacerlo más grande
                         className="h-[70px] w-auto object-contain py-1"
                     />
                 </a>
@@ -50,6 +48,19 @@ export default function Navbar() {
                         aria-pressed={language === "en"}
                     >
                         EN
+                    </button>
+                    <span className="text-slate-300">/</span>
+                    <button
+                        type="button"
+                        onClick={() => setLanguage("de")}
+                        className={`px-2 py-1 rounded-md transition ${
+                            language === "de"
+                                ? "text-slate-900 bg-slate-100"
+                                : "hover:text-slate-900 hover:bg-slate-100/60"
+                        }`}
+                        aria-pressed={language === "de"}
+                    >
+                        DE
                     </button>
                 </div>
             </div>
